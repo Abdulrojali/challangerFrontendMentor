@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list marketplace</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="manage.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="headerlinks">
+                <div class="headerlogo">
+                    <a href="">shooping</a>
+                </div>
+                <div class="headercontent">
+                    <ul>
+                        <li><a href="">collection</a></li>
+                        <li><a href="">men</a></li>
+                        <li><a href="">women</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="buyheader">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <img src="bio.jpg" alt="img" class="logo-account">
+            </div>
+            <div class="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+        <main>
+            <div class="maincontent">
+                <img src="img1.jpg" alt="" class="img-big">
+                <div class="main-slide">
+                    <img src="img2.jpg" alt="" class="img-small">
+                    <img src="img3.jpg" alt="" class="img-small">
+                    <img src="img4.jpg" alt="" class="img-small">
+                    <img src="img1.jpg" alt="" class="img-small">
+                </div>
+            </div>
+            <div class="mainteks">
+                <div class="judul">
+                    <b style='color:orange'>sepatu buatan amerika</b>
+                    <h3>sepatu kaca</h3>
+                </div>
+                <div class="tekscontent">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure perspiciatis cumque, ab aut inventore reiciendis molestias exercitationem. Accusamus, laboriosam nulla.</p>
+                    <h3>$ 15.000   <span style="color:red;padding: 8px; background-color: antiquewhite;">90%</span></h3>
+                    <i></i>
+                </div>
+                <div class="jumlah">
+                    <div class="operatorJumlah">
+                        <p onclick="handlerKurang">-</p>
+                        <p class="contentJumlah">0</p>
+                        <p onclick="handlerTambah">+</p>
+                    </div>
+                    <div class="btn">
+                        <p class="count">1</p>
+                        <button class="input"><i class="fa-solid fa-cart-shopping"></i> Add to chart</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="manage.js"></script>
+</body>
+</html>
